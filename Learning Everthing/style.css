@@ -1,0 +1,170 @@
+/* *{
+ margin: 0;
+ padding: 0;
+} */
+
+body {
+  background-color: #f4f4f4;
+  color: #1b1b1b;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 500px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #1b1b1b;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+
+a:visited {
+  color: black;
+}
+
+.button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+}
+
+.button:hover {
+  background-color: purple;
+}
+
+.clr {
+    clear: both;
+}
+
+p {
+  font: normal 16px Arial, Helvetica, san-serif;
+  line-height: 1.6em;
+}
+article {
+  background-color: rgb(233, 230, 227);
+  padding: 16px 16px 16px 16px;
+  border-radius: 20px;
+  border: 2px gray dotted;
+}
+section {
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+aside {
+  margin-top: 24px;
+  border: 1px #ccc solid;
+  border-radius: 15px;
+  padding: 10px;
+}
+aside h3 {
+  text-align: center;
+}
+aside ul {
+  padding: 0;
+  list-style: none;
+}
+
+aside li {
+  padding-bottom: 6px;
+  border-bottom: dotted 1px #333;
+  /* list-style-image: url(); */
+}
+
+.my-form {
+  padding: 20px;
+}
+
+.my-form .form-group {
+  padding-bottom: 15px;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input[type="text"],
+.my-form textarea {
+  padding: 8px;
+  width: 100%;
+}
+
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#main-block {
+  float: left;
+  width: 70%;
+}
+
+#sidebar {
+  float: left;
+  width: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+
+}
+
+.p-box {
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image: url(Images/Downloads/IMG_0803.PNG);
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+}
+
+.p-box h1 {
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+
+.p-box h2 {
+    position: absolute;
+    left: 500px;
+}
+
+.fix-me {
+    position: fixed;
+    top: 400px;
+
+}
+
+.my-list li:first-child {
+    background: red;
+}
+
+.my-list li:last-child {
+    background: rgb(0, 115, 255);
+}
+
+.my-list li:nth-child(4) {
+    background: greenyellow;
+}
+
+.my-list li:nth-child(even) {
+    background: yellow;
+}
