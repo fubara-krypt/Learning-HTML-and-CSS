@@ -1,0 +1,87 @@
+body {
+  font-family: Satoshi;
+  font-size: 16px;
+  line-height: 1.6em;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+
+/* Global */
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+/* Header */
+
+header {
+    background: grey;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #ff40ff 2px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #7f1de8;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: bisque;
+}
+
+/* Showcase */
+
+#showcase {
+    min-height: 400px;
+    background: url('../Images/Showcase\ Image\ 2.JPEG') no-repeat 0 -400px;
+    text-align: center;
+    color: #fff;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
