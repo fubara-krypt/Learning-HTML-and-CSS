@@ -18,7 +18,7 @@ body {
 
 .button_1 {
     height: 38px;
-    background: orange;
+    background: rgb(0, 0, 0);
     border: none;
     padding: 0 20px 0 20px;
     color: white;
@@ -67,7 +67,7 @@ header nav {
 }
 
 header .highlight, header .current a {
-    color: #0051ff;
+    color: #6797ff;
     font-weight: bold;
 }
 
@@ -138,6 +138,6 @@ footer {
     padding: 20px;
     margin-top: 20px;
     color: #fff;
-    background-color: #ea8;
+    background-color: rgb(0, 0, 0);
     text-align: center;
 }
