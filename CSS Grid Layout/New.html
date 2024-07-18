@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .wrapper {
+        display: grid;
+        /* grid-template-columns: 1fr 2fr 1fr; */
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1em;
+        /* grid-auto-rows:100px; */
+        grid-auto-rows: minmax(100px, auto);
+    }
+
+    .wrapper>div {
+        background: #e40000;
+        padding: 1em;
+    }
+
+    .wrapper>div:nth-child(odd) {
+        background: #442323;
+    }
+</style>
+
+<body>
+    <div class="wrapper">
+        <div>Lorem ipsum dolor sit.</div>
+        <div>Lorem ipsum dolor sit.</div>
+        <div>Lorem ipsum dolor sit.</div>
+        <div>Lorem ipsum dolor sit.</div>
+        <div>Lorem ipsum dolor sit.</div>
+        <div>Lorem ipsum dolor sit.</div>
+    </div>
+</body>
+
+</html>
